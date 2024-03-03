@@ -1,0 +1,488 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Marcellus";
+
+}
+
+html{
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#whole-container{
+    width: 100%;
+    position: relative;
+    background-color: #292021;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* navbar */
+#header{
+    width: 100%;
+    margin-top: -645px;
+}
+
+.nav-directors{
+    margin-left: 199px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-dirct-cus{
+    margin-right: 44px;
+}
+
+.nav-heads{
+    font-weight: 687;
+    font-size: 13px;
+    position: relative;
+}
+
+/* home */
+#home{
+    width: 100%;
+    height: 643px;
+}
+
+.home-bg1{
+    background-image: url("./images/home-1.jpg");
+    width: 100%;
+    height: 643px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: zoom 30s;
+}
+
+.home-bg2{
+    background-image: url("./images/home-2.jpg");
+    width: 100%;
+    height: 643px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: zoomout 15s;
+}
+
+.home-bg3{
+    background-image: url("./images/home-3.jpg");
+    width: 100%;
+    height: 643px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: zoom 30s;
+}
+
+.lefthome{
+       margin-top: 98px;
+       padding: 0 40px;
+}
+
+.homelogo{
+    width: 124px;
+    animation: spin 7s linear infinite;
+}
+ 
+.homehead{
+    font-family: "Marcellus";
+    font-weight: 500;
+    font-size: 71px;
+    color: #fff;
+}
+
+.homepara{
+    font-weight: 350;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+
+.homebttn{
+    width: 190px;
+    height: 66px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 399;
+    background-color: transparent;
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+/* about */
+#about{
+    background-image: url("./images/about-bg.jpg");
+    width: 100%;
+    min-height: 633px;
+    margin-top: 578px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.abouthead{
+    color: #fff;
+    font-family: "Marcellus";
+    font-weight: 600;
+    font-size: 20px;
+    text-align: end;
+    padding-top: 7px;
+}
+
+.aboutpara{
+    color: #fff;
+    font-family: "Marcellus";
+    font-size: 12px;
+    text-align: end;
+}
+
+.aboutheadR{
+    color: #fff;
+    font-family: "Marcellus";
+    font-weight: 600;
+    font-size: 20px;
+    text-align: start;
+    padding-top: 7px;
+}
+
+.aboutparaR{
+    color: #fff;
+    font-family: "Marcellus";
+    font-size: 12px;
+    text-align: start;
+}
+
+/* shop */
+#shop{
+    background-image: url("images/shop-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 633px;
+}
+
+.shophead{
+    font-size: xxx-large;
+}
+
+.shoppara{
+    font-family: "Marcellus"; 
+    padding-left: 287px; 
+    padding-right: 287px;
+}
+
+.shopimg{
+    position: relative;
+    filter: drop-shadow(12px 11px 7px black) ;
+}
+
+.shopimgdescp{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+.shopbttn{
+    width: 62%;
+    height: 24%;
+    background-color: #b08154;
+    color: #fff;
+    border: 0;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+/* blog */
+#blog{
+    background-image: url("./images/blog-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 633px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blogshape{
+    width: 95%;
+    min-height: 420px;
+    background-color: #332829;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.blogcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogcardhead{
+    padding-top: 6px;
+    font-weight: 100;
+}
+
+.blogcardpara{
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.blogcardlink{
+    font-size: 11px;
+    color: #fff;
+}
+
+/* testimonials */
+#testimonials{
+    background-image: url("./images/testimonial.jpg");
+    filter: brightness(.7);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 633px;
+}
+
+.testpara{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: system-ui;
+    line-height: 30px;
+    padding: 22px 108px;
+}
+
+/* menu */
+#menu{
+    background-color: #292021;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 635px;
+    padding-bottom: 10px;
+}
+
+.menubg{
+    background-image: url("./images/menu-back.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* footer */
+#footer{
+    background-image: url("./images/footer-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.footerform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email::placeholder {
+    color: rgb(151, 151, 151);
+  }
+
+.footerend{
+    background-color: #332829;
+    width: 100%;
+}
+
+
+
+/* psuedo classes */
+.nav-heads::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 9px;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 40px;
+    transform: scale(0);
+    transform-origin: right;
+    transition: transform .4s;
+}
+
+.nav-heads:hover:after{
+    transform-origin: left;
+    transform: scale(1);
+}  
+
+.homebttn:hover{
+    background-color: #bc7444;
+}
+
+.nav-open:enabled #products{
+    margin-top: 419px;
+}
+
+.shopimgdescp:hover{
+    opacity: 1;
+    backdrop-filter: blur(.7px);
+}
+
+.shopbttn:hover{
+    background-color: #070117;
+}
+
+.blogcardlink:hover{
+    color: #af5907;     
+    transform: translate(5px);
+    transition: transform .4s;
+}
+
+#testimonials:hover{
+    filter: brightness(1);
+}
+
+.footerup{
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* keyframes */
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+@keyframes zoom {
+    from{
+        transform: scale(1,1);
+    }
+
+    to{
+        transform: scale(1.3,1.3);
+    }
+}
+
+@keyframes zoomout {
+    from{
+        transform: scale(1.15,1.15);
+    }
+
+    to{
+        transform: scale(1,1);
+    }
+}
+  
+
+
+
+/* media queries */
+
+@media (max-width:991.8px) {
+    .nav-directors{
+        margin-left: 0px;
+        align-items: flex-start;
+        background-color: rgba(0, 0, 0, 0.498);
+        border-radius: 19px;
+        padding-left: 23px;
+        padding-bottom: 4px;
+    
+    }
+
+    .aboutimg{
+        display: none;
+    }
+
+    .shoppara{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .testpara{
+        font-size: 17px;
+        padding: 22px 8px;
+    }
+}
+
+@media (max-width:767.8px) {
+    .homebttn{
+        display: none;
+    }
+
+    .aboutright{
+        display: none;
+    }
+
+    .testpara{
+        font-size: 17px;
+        padding: 22px 2px;
+    }
+}
+
+@media (max-width:527.8px){
+    .shophead{
+        font-size: xx-large;
+    }
+}
+
+@media (max-width:372px){   
+    .homehead{
+        font-weight: 500;
+        font-size: 41px;
+    }
+
+    .shophead{
+        font-size: 28px;
+    }
+    
+    .homepara{
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+    .shoppara{
+        font-size: 13px;
+    }
+
+    .menuimg{
+        display: none;
+    }
+}
+
+@media (max-width:305px){   
+    .menupara{
+        display: none;
+    }
+}
